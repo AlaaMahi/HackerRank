@@ -1,0 +1,7 @@
+def camelCase(s):
+    cnt = 1
+    low = s.lower()
+    for i in range(len(s)):
+        if s[i] != low[i]:
+            cnt += 1
+    return cnt
